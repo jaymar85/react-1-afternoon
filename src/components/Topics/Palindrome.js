@@ -14,31 +14,17 @@ class Palindrome extends Component {
     handleChange(val) {
         this.setState({userInput:val}); 
     }
-    
-    // isPalindrome(userInput) {
-    //     let forwards = userInput;
-    //     let backwards = userInput;
-    //     backwards = backwards.split('');
-    //     backwards = backwards.reverse();
-    //     backwards = backwards.join('');
 
-    //     if (forwards === backwards) {
-    //         this.setState({palindrome: 'true'});
-    //     } else {
-    //         this.setState({palindrome: 'false'});
-    //     }
-    // }
-
-        isPalindrome(userInput) {
-            let forwards = userInput;
-            let backwards = userInput;
-            backwards = backwards.split('');
-            backwards = backwards.reverse();
-            backwards = backwards.join('');
+    isPalindrome(userInput) {
+        let forwards = userInput;
+        let backwards = userInput;
+        backwards = backwards.split('');
+        backwards = backwards.reverse();
+        backwards = backwards.join('');
     
-            if ( forwards === backwards ) {
+          if ( forwards === backwards ) {
           this.setState({ palindrome: 'true' });
-            } else {
+          } else {
           this.setState({ palindrome: 'false' });
           }
         }
