@@ -37,4 +37,5 @@ class Sum extends Component {
     }
 }
 
+//export
 export default Sum;

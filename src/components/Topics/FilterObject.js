@@ -58,4 +58,5 @@ class FilterObject extends Component {
   }
 }
 
+//export
 export default FilterObject;

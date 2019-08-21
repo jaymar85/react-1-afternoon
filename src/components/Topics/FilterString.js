@@ -40,5 +40,6 @@ class FilterString extends Component {
         )
     }
 }
+
 //export
 export default FilterString;

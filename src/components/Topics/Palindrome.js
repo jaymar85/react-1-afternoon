@@ -41,4 +41,5 @@ class Palindrome extends Component {
     }
 }
 
+//export
 export default Palindrome;
