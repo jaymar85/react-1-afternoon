@@ -5,7 +5,9 @@ import './index.css';
 class App extends Component {
   render() {
     return (
-      // <TopicBrowser />
+      <div>
+        <p>Hello World</p>
+      </div>
     )
   }
 }
